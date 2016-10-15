@@ -1,5 +1,8 @@
 package main
 
+// https://github.com/jbarham/gopgsqldriver
+// https://github.com/kardianos/govendor
+
 /*
 #cgo pkg-config: libpq
 #include <stdlib.h>
