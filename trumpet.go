@@ -2,6 +2,8 @@ package main
 
 // https://github.com/jbarham/gopgsqldriver
 // https://github.com/kardianos/govendor
+// https://github.com/Shopify/sarama
+// https://github.com/aws/aws-sdk-go
 
 /*
 #cgo pkg-config: libpq
@@ -19,7 +21,7 @@ import (
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	cs := C.CString("barf")
+	cs := C.CString("host=192.168.99.100 port=9109 user=postgres")
 	defer C.free(unsafe.Pointer(cs))
 	db := C.PQconnectdb(cs)
 
