@@ -16,7 +16,13 @@ import (
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	C.PQClear(unsafe.Pointer{0})
+	cs := C.CString("barf")
+	defer C.free(unsafe.Pointer(cs))
+	db := C.PQconnectdb(cs)
 
-	fmt.Print("hi")
+	if C.PQstatus(db) != C.CONNECTION_OK {
+		fmt.Print(C.GoString(C.PQerrorMessage(db)))
+	}
+
+	C.PQfinish(db)
 }
