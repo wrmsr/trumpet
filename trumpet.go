@@ -14,19 +14,21 @@ import "C"
 
 import (
 	"fmt"
+	"log"
 	"unsafe"
 )
 
-func Run() {
+func Run() error {
 	cs := C.CString("host=192.168.99.100 port=9109 user=postgres")
 	defer C.free(unsafe.Pointer(cs))
 	db := C.PQconnectdb(cs)
+	defer C.PQfinish(db)
 
 	if C.PQstatus(db) != C.CONNECTION_OK {
-		fmt.Print(C.GoString(C.PQerrorMessage(db)))
+		err := fmt.Errorf("Error connecting db: %s", C.GoString(C.PQerrorMessage(db)))
+		log.Print(err)
+		return err
 	}
-
-	C.PQfinish(db)
 
 	m := map[string]string{
 		"host":                      "192.168.99.100",
@@ -36,8 +38,8 @@ func Run() {
 		"fallback_application_name": "trumpet",
 	}
 
-	keys := make([]unsafe.Pointer, len(m)+1)
-	values := make([]unsafe.Pointer, len(m)+1)
+	keys := make([]unsafe.Pointer, len(m) + 1)
+	values := make([]unsafe.Pointer, len(m) + 1)
 	i := 0
 	for k, v := range m {
 		keys[i] = unsafe.Pointer(C.CString(k))
@@ -53,9 +55,41 @@ func Run() {
 	keys[i] = nil
 	values[i] = nil
 
-	db = C.PQconnectdbParams(unsafe.Pointer(&keys[0]), unsafe.Pointer(&values[0]), 1)
-	if C.PQstatus(db) != C.CONNECTION_OK {
-		fmt.Print(C.GoString(C.PQerrorMessage(db)))
+	repl := C.PQconnectdbParams(unsafe.Pointer(&keys[0]), unsafe.Pointer(&values[0]), 1)
+	defer C.PQfinish(repl)
+	if C.PQstatus(repl) != C.CONNECTION_OK {
+		err := fmt.Errorf("Error connecting repl: %s", C.GoString(C.PQerrorMessage(repl)))
+		log.Print(err)
+		return err
 	}
-	C.PQfinish(db)
+
+	identify_system := C.CString("identify_system")
+	defer C.free(unsafe.Pointer(identify_system))
+	res := C.PQexec(repl, identify_system)
+	defer C.PQclear(res)
+	if C.PQresultStatus(res) != C.PGRES_TUPLES_OK {
+		err := fmt.Errorf("Error calling identify_system %s", C.GoString(C.PQerrorMessage(repl)))
+		log.Print(err)
+		return err
+	}
+
+	if C.PQntuples(res) != 1 || C.PQnfields(res) < 4 {
+		err := fmt.Errorf("Unexpected identify_system result (%d rows, %d fields).", C.PQntuples(res), C.PQnfields(res))
+		log.Print(err)
+		return err
+	}
+
+	/* Check that the database name (fourth column of the result tuple) is non-null,
+	 * implying a database-specific connection. */
+	if C.PQgetisnull(res, 0, 3) != 0 {
+		err := fmt.Errorf("%s", "Not using a database-specific replication connection.")
+		log.Print(err)
+		return err
+	}
+
+	val := C.GoString(C.PQgetvalue(res, C.int(0), 0))
+	defer C.free(val)
+	fmt.Print(val)
+
+	return nil
 }
