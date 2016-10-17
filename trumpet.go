@@ -63,7 +63,7 @@ func Run() error {
 		return err
 	}
 
-	identify_system := C.CString("identify_system")
+	identify_system := C.CString("IDENTIFY_SYSTEM")
 	defer C.free(unsafe.Pointer(identify_system))
 	res := C.PQexec(repl, identify_system)
 	defer C.PQclear(res)
@@ -87,9 +87,10 @@ func Run() error {
 		return err
 	}
 
-	val := C.GoString(C.PQgetvalue(res, C.int(0), 0))
-	defer C.free(val)
-	fmt.Print(val)
+	for i := 0; i < 3; i += 1 {
+		val := C.GoString(C.PQgetvalue(res, C.int(0), C.int(i)))
+		fmt.Println(val)
+	}
 
 	return nil
 }
