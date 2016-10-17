@@ -1,0 +1,25 @@
+select * from pg_create_logical_replication_slot('trumpet', 'test_decoding');
+select slot_name, plugin, slot_type, database, active, restart_lsn from pg_replication_slots;
+
+select * from pg_logical_slot_get_changes('trumpet', null, null);
+
+create table data(id serial primary key, data text);
+
+select * from pg_logical_slot_get_changes('trumpet', null, null);
+select * from pg_logical_slot_get_changes('trumpet', null, null);
+
+begin;
+insert into data(data) values('1');
+insert into data(data) values('2');
+commit;
+
+select * from pg_logical_slot_get_changes('trumpet', null, null);
+
+insert into data(data) values('3');
+
+select * from pg_logical_slot_peek_changes('trumpet', null, null);
+select * from pg_logical_slot_peek_changes('trumpet', null, null);
+select * from pg_logical_slot_peek_changes('trumpet', null, null, 'include-timestamp', 'on');
+
+select pg_drop_replication_slot('trumpet');
+
