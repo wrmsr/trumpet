@@ -1,10 +1,5 @@
 package trumpet
 
-// https://github.com/jbarham/gopgsqldriver
-// https://github.com/kardianos/govendor
-// https://github.com/Shopify/sarama
-// https://github.com/aws/aws-sdk-go
-
 /*
 #cgo pkg-config: libpq
 #include <stdlib.h>

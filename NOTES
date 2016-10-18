@@ -23,3 +23,21 @@ select * from pg_logical_slot_peek_changes('trumpet', null, null, 'include-times
 
 select pg_drop_replication_slot('trumpet');
 
+
+
+
+
+http://use-the-index-luke.com/blog/2014-01/unreasonable-defaults-primary-key-clustering-key
+http://use-the-index-luke.com/sql/clustering/index-organized-clustered-index
+http://use-the-index-luke.com/sql/clustering
+
+https://www.postgresql.org/message-id/Pine.BSO.4.44.0206031939050.21627-100000@kitten.greentechnologist.org
+http://dba.stackexchange.com/questions/65964/how-do-i-decompose-ctid-into-page-and-row-numbers
+
+https://github.com/jbarham/gopgsqldriver
+https://github.com/kardianos/govendor
+https://github.com/Shopify/sarama
+https://github.com/aws/aws-sdk-go
+https://github.com/golang/go/issues/7408
+https://github.com/go-gorp/gorp
+
