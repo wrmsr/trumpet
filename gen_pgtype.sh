@@ -18,6 +18,6 @@ BEGIN {
 END {
 	print ")"
 }
-' > pg_type.go
+' > pgtype.go
 
-gofmt -w pg_type.go
+gofmt -w pgtype.go

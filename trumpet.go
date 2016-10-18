@@ -33,8 +33,8 @@ func Run() error {
 		"fallback_application_name": "trumpet",
 	}
 
-	keys := make([]unsafe.Pointer, len(m) + 1)
-	values := make([]unsafe.Pointer, len(m) + 1)
+	keys := make([]unsafe.Pointer, len(m)+1)
+	values := make([]unsafe.Pointer, len(m)+1)
 	i := 0
 	for k, v := range m {
 		keys[i] = unsafe.Pointer(C.CString(k))
