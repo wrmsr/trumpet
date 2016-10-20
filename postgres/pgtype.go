@@ -1,4 +1,4 @@
-package trumpet
+package postgres
 
 import "C"
 

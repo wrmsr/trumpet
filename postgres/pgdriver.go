@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package pgsqldriver is a PostgreSQL driver for the Go SQL database package.
-package trumpet
+package postgres
 
 /*
 #cgo pkg-config: libpq

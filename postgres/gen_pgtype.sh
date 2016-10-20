@@ -7,7 +7,7 @@
 cat `pg_config --includedir-server`/catalog/pg_type.h | \
 awk '
 BEGIN {
-	print "package pgsqldriver"
+	print "package postgres"
 	print "import \"C\""
 	print "// WARNING: This file is auto-generated! Do not edit."
 	print "const ("
