@@ -1,9 +1,7 @@
 DOCKER_USER=willremind101
 
-.PHONY: docker
-docker:
+.PHONY: all
+all:
+	docker build --tag $(DOCKER_USER)/trumpet-test-mysql trumpet-test-mysql
 	docker build --tag $(DOCKER_USER)/trumpet-test-postgres trumpet-test-postgres
 
-.PHONY: launch
-launch:
-	docker-compose up
