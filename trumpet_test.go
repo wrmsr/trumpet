@@ -7,6 +7,9 @@ import (
 	_ "./postgres"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"github.com/golang/go/src/io/ioutil"
+	"os"
+	"path"
 )
 
 func TestRun(t *testing.T) {
@@ -55,15 +58,20 @@ func TestInformationSchema(t *testing.T) {
 	}
 }
 
-
 type Product struct {
 	gorm.Model
-	Code string
+	Code  string
 	Price uint
 }
 
 func TestGorm(t *testing.T) {
-	db, err := gorm.Open("sqlite3", "test.db")
+	dbdir, err := ioutil.TempDir("", "trumpet-test")
+	if err != nil {
+		panic("failed to create temp dir")
+	}
+	defer os.Remove(dbdir)
+
+	db, err := gorm.Open("sqlite3", path.Join(dbdir, "test.db"))
 	if err != nil {
 		panic("failed to connect database")
 	}
