@@ -93,6 +93,7 @@ could directly hive interop via create table / partition by segment / add partit
  select row_number() over (partition by id order by segment desc) rn, * from foo where rn = 1
 
 
+new PUT only, r-a-w guaranteed
 writing orchestrated by sql lock + generation info, reading can be done uncoordinated
 
 
