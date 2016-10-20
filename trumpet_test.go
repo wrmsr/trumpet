@@ -88,6 +88,21 @@ func TestGorm(t *testing.T) {
 	db.First(&product, 1) // find product with id 1
 	db.First(&product, "code = ?", "L1212") // find product with code l1212
 
+	var code string
+	var price uint
+	row := db.Table("products").Where("code = ?", "L1212").Select("code, price").Row() // (*sql.Row)
+	row.Scan(&code, &price)
+	fmt.Println(code)
+	fmt.Println(price)
+
+	rows, err := db.Model(&Product{}).Where("code = ?", "L1212").Select("code, price").Rows() // (*sql.Rows, error)
+	defer rows.Close()
+	for rows.Next() {
+		rows.Scan(&code, &price)
+		fmt.Println(code)
+		fmt.Println(price)
+	}
+
 	// Update - update product's price to 2000
 	db.Model(&product).Update("Price", 2000)
 

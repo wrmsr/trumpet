@@ -50,3 +50,59 @@ govendor
 mysql
 postgres
 swig
+
+github.com/rlmcpherson/s3gof3r
+github.com/aws/aws-sdk-go/service/s3
+github.com/aws/aws-sdk-go/service/kinesis
+github.com/jinzhu/gorm
+github.com/jinzhu/gorm/dialects/mysql
+github.com/jinzhu/gorm/dialects/postgres
+github.com/jinzhu/gorm/dialects/sqlite3
+github.com/Shopify/sarama
+
+
+
+
+https://axialcorps.com/2014/06/24/named-locks-in-mysql-and-postgres/
+
+
+s3/
+ my_db/
+  index/
+   00001 (json)
+  segments/
+   00001 (json/gz)
+
+
+segment:
+ name
+ created_date
+ size_bytes
+ num_rows
+ min_sequence
+ max_sequence
+
+json schema
+
+index file contains all information, rewritten in entirety every time
+compaction done as in lucene
+gc done by deleting all indices too old (with failsafe of at least one) then deleting any segment not referenced by any remaining index
+
+
+could directly hive interop via create table / partition by segment / add partition
+ select row_number() over (partition by id order by segment desc) rn, * from foo where rn = 1
+
+
+new PUT only, r-a-w guaranteed
+writing orchestrated by sql lock + generation info, reading can be done uncoordinated
+
+
+tailer process
+compaction/gc process
+pg_xlog backup watchdog, kill pid and drop slot
+
+schematizer? heartbeat daemon? failover?
+
+
+https://github.com/2ndQuadrant/repmgr
+https://wiki.postgresql.org/images/d/da/PGConfUS2016_Migrating_a_live_Postgres_database_into_RDS_with_no_downtime.pdf

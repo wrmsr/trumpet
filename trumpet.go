@@ -11,30 +11,44 @@ import (
 	"fmt"
 	"log"
 	"unsafe"
+	"github.com/jinzhu/gorm"
+
+	_ "github.com/wrmsr/trumpet/postgres"
 )
 
 func Run() error {
-	cs := C.CString("host=192.168.99.100 port=9109 user=postgres")
-	defer C.free(unsafe.Pointer(cs))
-	db := C.PQconnectdb(cs)
-	defer C.PQfinish(db)
+	cs := "host=192.168.99.100 port=9109 user=postgres"
 
-	if C.PQstatus(db) != C.CONNECTION_OK {
-		err := fmt.Errorf("Error connecting db: %s", C.GoString(C.PQerrorMessage(db)))
-		log.Print(err)
-		return err
+	db, err := gorm.Open("pgdriver", cs)
+	if err != nil {
+		panic(fmt.Sprintf("failed to connect database: %s", err))
+	}
+	defer db.Close()
+
+	csc := C.CString(cs)
+	defer C.free(unsafe.Pointer(csc))
+
+	var pqerror *C.char
+	var parsed_opts = C.PQconninfoParse(csc, &pqerror);
+	if parsed_opts == nil {
+		err := C.GoString(pqerror)
+		C.PQfreemem(unsafe.Pointer(pqerror));
+		panic(fmt.Sprintf("failed to parse connection string: %s", err))
+	}
+	defer C.PQconninfoFree(parsed_opts)
+
+	m := map[string]string{}
+	for parsed_opt := parsed_opts; parsed_opt.keyword != nil; parsed_opt = (*C.struct__PQconninfoOption)(unsafe.Pointer(uintptr(unsafe.Pointer(parsed_opt)) + unsafe.Sizeof(*parsed_opt))) {
+		if parsed_opt.val != nil {
+			m[C.GoString(parsed_opt.keyword)] = C.GoString(parsed_opt.val)
+		}
 	}
 
-	m := map[string]string{
-		"host":                      "192.168.99.100",
-		"port":                      "9109",
-		"user":                      "postgres",
-		"replication":               "database",
-		"fallback_application_name": "trumpet",
-	}
+	m["replication"] = "database";
+	m["fallback_application_name"] = "trumpet";
 
-	keys := make([]unsafe.Pointer, len(m)+1)
-	values := make([]unsafe.Pointer, len(m)+1)
+	keys := make([]unsafe.Pointer, len(m) + 1)
+	values := make([]unsafe.Pointer, len(m) + 1)
 	i := 0
 	for k, v := range m {
 		keys[i] = unsafe.Pointer(C.CString(k))
@@ -85,6 +99,14 @@ func Run() error {
 	for i := 0; i < 3; i += 1 {
 		val := C.GoString(C.PQgetvalue(res, C.int(0), C.int(i)))
 		fmt.Println(val)
+	}
+
+	slot_name := "trumpet"
+	row := db.Table("pg_replication_slots").Where("slot_name = $1", slot_name).Select("restart_lsn").Row()
+	var restart_lsn string
+	err = row.Scan(&restart_lsn)
+	if err != nil {
+		panic(fmt.Sprintf("Error reading restart_lsn: %s", err))
 	}
 
 	return nil

@@ -348,5 +348,5 @@ func buildCArgs(params []driver.Value) **C.char {
 }
 
 func init() {
-	sql.Register("postgres", &postgresDriver{})
+	sql.Register("pgdriver", &postgresDriver{})
 }

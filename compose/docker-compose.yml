@@ -2,6 +2,14 @@ version: '2'
 
 services:
 
+  trumpet-test-mysql:
+    image: willremind101/trumpet-test-mysql:latest
+    container_name: trumpet-test-mysql
+    ports:
+      - "9108:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: trumpet
+
   trumpet-test-postgres:
     image: willremind101/trumpet-test-postgres:latest
     container_name: trumpet-test-postgres
