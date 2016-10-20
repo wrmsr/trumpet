@@ -27,7 +27,7 @@ func TestInformationSchema(t *testing.T) {
 	valPtrs := make([]interface{}, count)
 
 	for i := 0; rows.Next(); i++ {
-		for n, _ := range cols {
+		for n := range cols {
 			valPtrs[n] = &vals[n]
 		}
 		rows.Scan(valPtrs...)
