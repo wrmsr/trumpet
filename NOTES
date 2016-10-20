@@ -106,3 +106,7 @@ schematizer? heartbeat daemon? failover?
 
 https://github.com/2ndQuadrant/repmgr
 https://wiki.postgresql.org/images/d/da/PGConfUS2016_Migrating_a_live_Postgres_database_into_RDS_with_no_downtime.pdf
+
+
+INVARIANT:
+ never receive more than one tuple per pk/sequence pair

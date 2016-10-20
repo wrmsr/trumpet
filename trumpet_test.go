@@ -106,16 +106,6 @@ func TestGorm(t *testing.T) {
 	// Update - update product's price to 2000
 	db.Model(&product).Update("Price", 2000)
 
-	var code, price string
-	row := db.Table("products").Where("code = ?", "L1212").Select("code, price").Row() // (*sql.Row)
-	row.Scan(&code, &price)
-
-	rows, err := db.Model(&Product{}).Where("code = ?", "L1212").Select("code, price").Rows() // (*sql.Rows, error)
-	defer rows.Close()
-	for rows.Next() {
-		rows.Scan(&code, &price)
-	}
-
 	// Delete - delete product
 	db.Delete(&product)
 }
