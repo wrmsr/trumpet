@@ -101,10 +101,13 @@ func Run() error {
 		fmt.Println(val)
 	}
 
-	runGorm()
+	slot_name := "trumpet"
+	row := db.Table("pg_replication_slots").Where("slot_name = $1", slot_name).Select("restart_lsn").Row()
+	var restart_lsn string
+	err = row.Scan(&restart_lsn)
+	if err != nil {
+		panic(fmt.Sprintf("Error reading restart_lsn: %s", err))
+	}
 
 	return nil
-}
-
-func runGorm() {
 }
