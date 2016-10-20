@@ -30,7 +30,7 @@ func chkerr(t *testing.T, err error) {
 
 func TestPq(t *testing.T) {
 	// pgsqldriver registers itself with sql.Register using name "postgres".
-	db, err := sql.Open("postgres", "host=192.168.99.100 port=9109 user=postgres")
+	db, err := sql.Open("pgdriver", "host=192.168.99.100 port=9109 user=postgres")
 	chkerr(t, err)
 
 	// Create test table, and schedule its deletion.

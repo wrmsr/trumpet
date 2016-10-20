@@ -50,3 +50,12 @@ govendor
 mysql
 postgres
 swig
+
+github.com/rlmcpherson/s3gof3r
+github.com/aws/aws-sdk-go/service/s3
+github.com/aws/aws-sdk-go/service/kinesis
+github.com/jinzhu/gorm
+github.com/jinzhu/gorm/dialects/mysql
+github.com/jinzhu/gorm/dialects/postgres
+github.com/jinzhu/gorm/dialects/sqlite3
+github.com/Shopify/sarama

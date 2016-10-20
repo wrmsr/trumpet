@@ -7,10 +7,6 @@
 			"revision": ""
 		},
 		{
-			"path": "dialects/mysql",
-			"revision": ""
-		},
-		{
 			"checksumSHA1": "ndXdAUJxHPttczpZH64OoMeullA=",
 			"path": "github.com/Shopify/sarama",
 			"revision": "1548006a8b86e4431c98a96ff029d8c2cfdf7fd3",
