@@ -43,6 +43,8 @@ https://github.com/go-gorp/gorp
 
 https://github.com/Shopify/sarama
 
+https://github.com/siddontang/go-mysql
+-tags=embed github.com/tecbot/gorocksdb
 
 
 
