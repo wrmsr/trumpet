@@ -96,5 +96,6 @@ could directly hive interop via create table / partition by segment / add partit
 writing orchestrated by sql lock + generation info, reading can be done uncoordinated
 
 
+tailer process
 compaction/gc process
-pg_xlog backup watchdog, kill process and drop slot
+pg_xlog backup watchdog, kill pid and drop slot
