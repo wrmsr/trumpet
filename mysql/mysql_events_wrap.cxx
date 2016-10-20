@@ -10,7 +10,7 @@
 
 // source: mysql_events.i
 
-#define SWIGMODULE mysql
+#define SWIGMODULE mysql_events
 
 #ifdef __cplusplus
 /* SwigValueWrapper is described in swig.swg */
@@ -246,7 +246,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_mysql_061405b0074197b1(void *_swig_go_0) {
+void _wrap_Swig_free_mysql_events_06df29421e916f40(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -256,7 +256,7 @@ void _wrap_Swig_free_mysql_061405b0074197b1(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_mysql_061405b0074197b1(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_mysql_events_06df29421e916f40(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -269,7 +269,7 @@ void *_wrap_Swig_malloc_mysql_061405b0074197b1(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_NAME_LEN_mysql_061405b0074197b1() {
+intgo _wrap_NAME_LEN_mysql_events_06df29421e916f40() {
   int result;
   intgo _swig_go_result;
   
@@ -281,7 +281,7 @@ intgo _wrap_NAME_LEN_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_061405b0074197b1() {
+intgo _wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_events_06df29421e916f40() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -293,7 +293,7 @@ intgo _wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_061405b0074197b1() {
 }
 
 
-int64_t *_wrap_SEQ_UNINIT_get_mysql_061405b0074197b1() {
+int64_t *_wrap_SEQ_UNINIT_get_mysql_events_06df29421e916f40() {
   int64_t result;
   int64_t *_swig_go_result;
   
@@ -304,7 +304,7 @@ int64_t *_wrap_SEQ_UNINIT_get_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_061405b0074197b1() {
+intgo _wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_events_06df29421e916f40() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -315,7 +315,7 @@ intgo _wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_061405b0074197b1() {
 }
 
 
-void _wrap_do_server_version_split_mysql_061405b0074197b1(_gostring_ _swig_go_0, char *_swig_go_1) {
+void _wrap_do_server_version_split_mysql_events_06df29421e916f40(_gostring_ _swig_go_0, char *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   unsigned char *arg2 ;
   
@@ -332,7 +332,7 @@ void _wrap_do_server_version_split_mysql_061405b0074197b1(_gostring_ _swig_go_0,
 }
 
 
-long long _wrap_version_product_mysql_061405b0074197b1(char *_swig_go_0) {
+long long _wrap_version_product_mysql_events_06df29421e916f40(char *_swig_go_0) {
   unsigned char *arg1 = (unsigned char *) 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -345,7 +345,7 @@ long long _wrap_version_product_mysql_061405b0074197b1(char *_swig_go_0) {
 }
 
 
-char *_wrap_checksum_version_split_get_mysql_061405b0074197b1() {
+char *_wrap_checksum_version_split_get_mysql_events_06df29421e916f40() {
   unsigned char *result = 0 ;
   char *_swig_go_result;
   
@@ -356,7 +356,7 @@ char *_wrap_checksum_version_split_get_mysql_061405b0074197b1() {
 }
 
 
-long long _wrap_checksum_version_product_get_mysql_061405b0074197b1() {
+long long _wrap_checksum_version_product_get_mysql_events_06df29421e916f40() {
   unsigned long result;
   long long _swig_go_result;
   
@@ -367,7 +367,7 @@ long long _wrap_checksum_version_product_get_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_UNKNOWN_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_UNKNOWN_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -379,7 +379,7 @@ intgo _wrap_UNKNOWN_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_START_EVENT_V3_mysql_061405b0074197b1() {
+intgo _wrap_START_EVENT_V3_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -391,7 +391,7 @@ intgo _wrap_START_EVENT_V3_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_QUERY_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_QUERY_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -403,7 +403,7 @@ intgo _wrap_QUERY_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_STOP_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_STOP_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -415,7 +415,7 @@ intgo _wrap_STOP_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ROTATE_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_ROTATE_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -427,7 +427,7 @@ intgo _wrap_ROTATE_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_INTVAR_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_INTVAR_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -439,7 +439,7 @@ intgo _wrap_INTVAR_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_LOAD_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_LOAD_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -451,7 +451,7 @@ intgo _wrap_LOAD_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_SLAVE_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_SLAVE_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -463,7 +463,7 @@ intgo _wrap_SLAVE_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_CREATE_FILE_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_CREATE_FILE_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -475,7 +475,7 @@ intgo _wrap_CREATE_FILE_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_APPEND_BLOCK_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_APPEND_BLOCK_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -487,7 +487,7 @@ intgo _wrap_APPEND_BLOCK_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_EXEC_LOAD_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_EXEC_LOAD_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -499,7 +499,7 @@ intgo _wrap_EXEC_LOAD_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_DELETE_FILE_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_DELETE_FILE_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -511,7 +511,7 @@ intgo _wrap_DELETE_FILE_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_NEW_LOAD_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_NEW_LOAD_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -523,7 +523,7 @@ intgo _wrap_NEW_LOAD_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_RAND_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_RAND_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -535,7 +535,7 @@ intgo _wrap_RAND_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_USER_VAR_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_USER_VAR_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -547,7 +547,7 @@ intgo _wrap_USER_VAR_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_FORMAT_DESCRIPTION_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_FORMAT_DESCRIPTION_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -559,7 +559,7 @@ intgo _wrap_FORMAT_DESCRIPTION_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_XID_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_XID_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -571,7 +571,7 @@ intgo _wrap_XID_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BEGIN_LOAD_QUERY_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_BEGIN_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -583,7 +583,7 @@ intgo _wrap_BEGIN_LOAD_QUERY_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -595,7 +595,7 @@ intgo _wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_TABLE_MAP_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_TABLE_MAP_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -607,7 +607,7 @@ intgo _wrap_TABLE_MAP_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -619,7 +619,7 @@ intgo _wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -631,7 +631,7 @@ intgo _wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -643,7 +643,7 @@ intgo _wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_WRITE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
+intgo _wrap_WRITE_ROWS_EVENT_V1_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -655,7 +655,7 @@ intgo _wrap_WRITE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_UPDATE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
+intgo _wrap_UPDATE_ROWS_EVENT_V1_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -667,7 +667,7 @@ intgo _wrap_UPDATE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_DELETE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
+intgo _wrap_DELETE_ROWS_EVENT_V1_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -679,7 +679,7 @@ intgo _wrap_DELETE_ROWS_EVENT_V1_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_INCIDENT_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_INCIDENT_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -691,7 +691,7 @@ intgo _wrap_INCIDENT_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_HEARTBEAT_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_HEARTBEAT_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -703,7 +703,7 @@ intgo _wrap_HEARTBEAT_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_IGNORABLE_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_IGNORABLE_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -715,7 +715,7 @@ intgo _wrap_IGNORABLE_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ROWS_QUERY_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_ROWS_QUERY_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -727,7 +727,7 @@ intgo _wrap_ROWS_QUERY_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_WRITE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -739,7 +739,7 @@ intgo _wrap_WRITE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_UPDATE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -751,7 +751,7 @@ intgo _wrap_UPDATE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_DELETE_ROWS_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -763,7 +763,7 @@ intgo _wrap_DELETE_ROWS_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_GTID_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_GTID_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -775,7 +775,7 @@ intgo _wrap_GTID_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -787,7 +787,7 @@ intgo _wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -799,7 +799,7 @@ intgo _wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_TRANSACTION_CONTEXT_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_TRANSACTION_CONTEXT_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -811,7 +811,7 @@ intgo _wrap_TRANSACTION_CONTEXT_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_VIEW_CHANGE_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_VIEW_CHANGE_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -823,7 +823,7 @@ intgo _wrap_VIEW_CHANGE_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ENUM_END_EVENT_mysql_061405b0074197b1() {
+intgo _wrap_ENUM_END_EVENT_mysql_events_06df29421e916f40() {
   binary_log::Log_event_type result;
   intgo _swig_go_result;
   
@@ -835,7 +835,7 @@ intgo _wrap_ENUM_END_EVENT_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ST_CREATED_OFFSET_mysql_061405b0074197b1() {
+intgo _wrap_ST_CREATED_OFFSET_mysql_events_06df29421e916f40() {
   int result;
   intgo _swig_go_result;
   
@@ -847,7 +847,7 @@ intgo _wrap_ST_CREATED_OFFSET_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_061405b0074197b1() {
+intgo _wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_events_06df29421e916f40() {
   int result;
   intgo _swig_go_result;
   
@@ -859,7 +859,7 @@ intgo _wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_061405b0074197b1() {
+intgo _wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_events_06df29421e916f40() {
   binary_log::enum_binlog_checksum_alg result;
   intgo _swig_go_result;
   
@@ -871,7 +871,7 @@ intgo _wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_061405b0074197b1() {
+intgo _wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_events_06df29421e916f40() {
   binary_log::enum_binlog_checksum_alg result;
   intgo _swig_go_result;
   
@@ -883,7 +883,7 @@ intgo _wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_061405b0074197b1() {
+intgo _wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_events_06df29421e916f40() {
   binary_log::enum_binlog_checksum_alg result;
   intgo _swig_go_result;
   
@@ -895,7 +895,7 @@ intgo _wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_061405b0074197b1() {
+intgo _wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_events_06df29421e916f40() {
   binary_log::enum_binlog_checksum_alg result;
   intgo _swig_go_result;
   
@@ -907,7 +907,7 @@ intgo _wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_061405b0074197b1() {
 }
 
 
-uint32_t *_wrap_checksum_crc32_mysql_061405b0074197b1(uint32_t *_swig_go_0, char *_swig_go_1, long long _swig_go_2) {
+uint32_t *_wrap_checksum_crc32_mysql_events_06df29421e916f40(uint32_t *_swig_go_0, char *_swig_go_1, long long _swig_go_2) {
   uint32_t arg1 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   size_t arg3 ;
@@ -931,7 +931,7 @@ uint32_t *_wrap_checksum_crc32_mysql_061405b0074197b1(uint32_t *_swig_go_0, char
 }
 
 
-intgo _wrap_read_str_at_most_255_bytes_mysql_061405b0074197b1(_gostring_* _swig_go_0, _gostring_ _swig_go_1, _gostring_* _swig_go_2, uint8_t *_swig_go_3) {
+intgo _wrap_read_str_at_most_255_bytes_mysql_events_06df29421e916f40(_gostring_* _swig_go_0, _gostring_ _swig_go_1, _gostring_* _swig_go_2, uint8_t *_swig_go_3) {
   char **arg1 = (char **) 0 ;
   char *arg2 = (char *) 0 ;
   char **arg3 = (char **) 0 ;
@@ -955,7 +955,7 @@ intgo _wrap_read_str_at_most_255_bytes_mysql_061405b0074197b1(_gostring_* _swig_
 }
 
 
-intgo _wrap_Log_event_footer_get_checksum_alg_mysql_061405b0074197b1(_gostring_ _swig_go_0, long long _swig_go_1) {
+intgo _wrap_Log_event_footer_get_checksum_alg_mysql_events_06df29421e916f40(_gostring_ _swig_go_0, long long _swig_go_1) {
   char *arg1 = (char *) 0 ;
   unsigned long arg2 ;
   binary_log::enum_binlog_checksum_alg result;
@@ -975,7 +975,7 @@ intgo _wrap_Log_event_footer_get_checksum_alg_mysql_061405b0074197b1(_gostring_ 
 }
 
 
-bool _wrap_Log_event_footer_event_checksum_test_mysql_061405b0074197b1(char *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+bool _wrap_Log_event_footer_event_checksum_test_mysql_events_06df29421e916f40(char *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   unsigned char *arg1 = (unsigned char *) 0 ;
   unsigned long arg2 ;
   binary_log::enum_binlog_checksum_alg arg3 ;
@@ -992,7 +992,7 @@ bool _wrap_Log_event_footer_event_checksum_test_mysql_061405b0074197b1(char *_sw
 }
 
 
-binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_0_mysql_061405b0074197b1() {
+binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_0_mysql_events_06df29421e916f40() {
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;
   
@@ -1003,7 +1003,7 @@ binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_0_mysql_061405b00
 }
 
 
-binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_1_mysql_061405b0074197b1(intgo _swig_go_0) {
+binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_1_mysql_events_06df29421e916f40(intgo _swig_go_0) {
   binary_log::enum_binlog_checksum_alg arg1 ;
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;
@@ -1016,7 +1016,7 @@ binary_log::Log_event_footer *_wrap_new_Log_event_footer__SWIG_1_mysql_061405b00
 }
 
 
-void _wrap_Log_event_footer_checksum_alg_set_mysql_061405b0074197b1(binary_log::Log_event_footer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Log_event_footer_checksum_alg_set_mysql_events_06df29421e916f40(binary_log::Log_event_footer *_swig_go_0, intgo _swig_go_1) {
   binary_log::Log_event_footer *arg1 = (binary_log::Log_event_footer *) 0 ;
   binary_log::enum_binlog_checksum_alg arg2 ;
   
@@ -1028,7 +1028,7 @@ void _wrap_Log_event_footer_checksum_alg_set_mysql_061405b0074197b1(binary_log::
 }
 
 
-intgo _wrap_Log_event_footer_checksum_alg_get_mysql_061405b0074197b1(binary_log::Log_event_footer *_swig_go_0) {
+intgo _wrap_Log_event_footer_checksum_alg_get_mysql_events_06df29421e916f40(binary_log::Log_event_footer *_swig_go_0) {
   binary_log::Log_event_footer *arg1 = (binary_log::Log_event_footer *) 0 ;
   binary_log::enum_binlog_checksum_alg result;
   intgo _swig_go_result;
@@ -1041,7 +1041,7 @@ intgo _wrap_Log_event_footer_checksum_alg_get_mysql_061405b0074197b1(binary_log:
 }
 
 
-void _wrap_delete_Log_event_footer_mysql_061405b0074197b1(binary_log::Log_event_footer *_swig_go_0) {
+void _wrap_delete_Log_event_footer_mysql_events_06df29421e916f40(binary_log::Log_event_footer *_swig_go_0) {
   binary_log::Log_event_footer *arg1 = (binary_log::Log_event_footer *) 0 ;
   
   arg1 = *(binary_log::Log_event_footer **)&_swig_go_0; 
@@ -1051,7 +1051,7 @@ void _wrap_delete_Log_event_footer_mysql_061405b0074197b1(binary_log::Log_event_
 }
 
 
-void _wrap_Log_event_header_when_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, timeval *_swig_go_1) {
+void _wrap_Log_event_header_when_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, timeval *_swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   timeval arg2 ;
   timeval *argp2 ;
@@ -1070,7 +1070,7 @@ void _wrap_Log_event_header_when_set_mysql_061405b0074197b1(binary_log::Log_even
 }
 
 
-timeval *_wrap_Log_event_header_when_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+timeval *_wrap_Log_event_header_when_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   timeval result;
   timeval *_swig_go_result;
@@ -1083,7 +1083,7 @@ timeval *_wrap_Log_event_header_when_get_mysql_061405b0074197b1(binary_log::Log_
 }
 
 
-void _wrap_Log_event_header_type_code_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Log_event_header_type_code_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, intgo _swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   binary_log::Log_event_type arg2 ;
   
@@ -1095,7 +1095,7 @@ void _wrap_Log_event_header_type_code_set_mysql_061405b0074197b1(binary_log::Log
 }
 
 
-intgo _wrap_Log_event_header_type_code_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+intgo _wrap_Log_event_header_type_code_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   binary_log::Log_event_type result;
   intgo _swig_go_result;
@@ -1108,7 +1108,7 @@ intgo _wrap_Log_event_header_type_code_get_mysql_061405b0074197b1(binary_log::Lo
 }
 
 
-void _wrap_Log_event_header_unmasked_server_id_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Log_event_header_unmasked_server_id_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, intgo _swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   unsigned int arg2 ;
   
@@ -1120,7 +1120,7 @@ void _wrap_Log_event_header_unmasked_server_id_set_mysql_061405b0074197b1(binary
 }
 
 
-intgo _wrap_Log_event_header_unmasked_server_id_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+intgo _wrap_Log_event_header_unmasked_server_id_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1133,7 +1133,7 @@ intgo _wrap_Log_event_header_unmasked_server_id_get_mysql_061405b0074197b1(binar
 }
 
 
-void _wrap_Log_event_header_data_written_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, long long _swig_go_1) {
+void _wrap_Log_event_header_data_written_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, long long _swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   size_t arg2 ;
   
@@ -1145,7 +1145,7 @@ void _wrap_Log_event_header_data_written_set_mysql_061405b0074197b1(binary_log::
 }
 
 
-long long _wrap_Log_event_header_data_written_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+long long _wrap_Log_event_header_data_written_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -1158,7 +1158,7 @@ long long _wrap_Log_event_header_data_written_get_mysql_061405b0074197b1(binary_
 }
 
 
-void _wrap_Log_event_header_log_pos_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, long long _swig_go_1) {
+void _wrap_Log_event_header_log_pos_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, long long _swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   unsigned long long arg2 ;
   
@@ -1170,7 +1170,7 @@ void _wrap_Log_event_header_log_pos_set_mysql_061405b0074197b1(binary_log::Log_e
 }
 
 
-long long _wrap_Log_event_header_log_pos_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+long long _wrap_Log_event_header_log_pos_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   unsigned long long result;
   long long _swig_go_result;
@@ -1183,7 +1183,7 @@ long long _wrap_Log_event_header_log_pos_get_mysql_061405b0074197b1(binary_log::
 }
 
 
-void _wrap_Log_event_header_flags_set_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0, uint16_t *_swig_go_1) {
+void _wrap_Log_event_header_flags_set_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0, uint16_t *_swig_go_1) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   uint16_t arg2 ;
   uint16_t *argp2 ;
@@ -1202,7 +1202,7 @@ void _wrap_Log_event_header_flags_set_mysql_061405b0074197b1(binary_log::Log_eve
 }
 
 
-uint16_t *_wrap_Log_event_header_flags_get_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+uint16_t *_wrap_Log_event_header_flags_get_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   uint16_t result;
   uint16_t *_swig_go_result;
@@ -1215,7 +1215,7 @@ uint16_t *_wrap_Log_event_header_flags_get_mysql_061405b0074197b1(binary_log::Lo
 }
 
 
-binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_0_mysql_061405b0074197b1(intgo _swig_go_0) {
+binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_0_mysql_events_06df29421e916f40(intgo _swig_go_0) {
   binary_log::Log_event_type arg1 ;
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
@@ -1228,7 +1228,7 @@ binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_0_mysql_061405b00
 }
 
 
-binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_1_mysql_061405b0074197b1() {
+binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_1_mysql_events_06df29421e916f40() {
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
   
@@ -1239,7 +1239,7 @@ binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_1_mysql_061405b00
 }
 
 
-binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_2_mysql_061405b0074197b1(_gostring_ _swig_go_0, uint16_t *_swig_go_1) {
+binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_2_mysql_events_06df29421e916f40(_gostring_ _swig_go_0, uint16_t *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   uint16_t arg2 ;
   uint16_t *argp2 ;
@@ -1266,7 +1266,7 @@ binary_log::Log_event_header *_wrap_new_Log_event_header__SWIG_2_mysql_061405b00
 }
 
 
-void _wrap_delete_Log_event_header_mysql_061405b0074197b1(binary_log::Log_event_header *_swig_go_0) {
+void _wrap_delete_Log_event_header_mysql_events_06df29421e916f40(binary_log::Log_event_header *_swig_go_0) {
   binary_log::Log_event_header *arg1 = (binary_log::Log_event_header *) 0 ;
   
   arg1 = *(binary_log::Log_event_header **)&_swig_go_0; 
@@ -1276,7 +1276,7 @@ void _wrap_delete_Log_event_header_mysql_061405b0074197b1(binary_log::Log_event_
 }
 
 
-intgo _wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_events_06df29421e916f40() {
   int result;
   intgo _swig_go_result;
   
@@ -1288,7 +1288,7 @@ intgo _wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_061405b00741
 }
 
 
-intgo _wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1300,7 +1300,7 @@ intgo _wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1312,7 +1312,7 @@ intgo _wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_STOP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_STOP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1324,7 +1324,7 @@ intgo _wrap_STOP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1336,7 +1336,7 @@ intgo _wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1348,7 +1348,7 @@ intgo _wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1360,7 +1360,7 @@ intgo _wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1372,7 +1372,7 @@ intgo _wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1384,7 +1384,7 @@ intgo _wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1396,7 +1396,7 @@ intgo _wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1408,7 +1408,7 @@ intgo _wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1420,7 +1420,7 @@ intgo _wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1432,7 +1432,7 @@ intgo _wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_RAND_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_RAND_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1444,7 +1444,7 @@ intgo _wrap_RAND_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1456,7 +1456,7 @@ intgo _wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1468,7 +1468,7 @@ intgo _wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_061405b0074197b
 }
 
 
-intgo _wrap_XID_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_XID_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1480,7 +1480,7 @@ intgo _wrap_XID_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1492,7 +1492,7 @@ intgo _wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(
 }
 
 
-intgo _wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1504,7 +1504,7 @@ intgo _wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1516,7 +1516,7 @@ intgo _wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1528,7 +1528,7 @@ intgo _wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_061405b00
 }
 
 
-intgo _wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1540,7 +1540,7 @@ intgo _wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b
 }
 
 
-intgo _wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1552,7 +1552,7 @@ intgo _wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1564,7 +1564,7 @@ intgo _wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1576,7 +1576,7 @@ intgo _wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-intgo _wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_061405b0074197b1() {
+intgo _wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_events_06df29421e916f40() {
   binary_log::Binary_log_event::enum_post_header_length result;
   intgo _swig_go_result;
   
@@ -1588,7 +1588,7 @@ intgo _wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_061405b0074197b1() {
 }
 
 
-void _wrap_Binary_log_event_print_event_info_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0, std::ostream *_swig_go_1) {
+void _wrap_Binary_log_event_print_event_info_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0, std::ostream *_swig_go_1) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   std::ostream *arg2 = 0 ;
   
@@ -1600,7 +1600,7 @@ void _wrap_Binary_log_event_print_event_info_mysql_061405b0074197b1(binary_log::
 }
 
 
-void _wrap_Binary_log_event_print_long_info_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0, std::ostream *_swig_go_1) {
+void _wrap_Binary_log_event_print_long_info_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0, std::ostream *_swig_go_1) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   std::ostream *arg2 = 0 ;
   
@@ -1612,7 +1612,7 @@ void _wrap_Binary_log_event_print_long_info_mysql_061405b0074197b1(binary_log::B
 }
 
 
-void _wrap_delete_Binary_log_event_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+void _wrap_delete_Binary_log_event_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   
   arg1 = *(binary_log::Binary_log_event **)&_swig_go_0; 
@@ -1622,7 +1622,7 @@ void _wrap_delete_Binary_log_event_mysql_061405b0074197b1(binary_log::Binary_log
 }
 
 
-intgo _wrap_Binary_log_event_get_event_type_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+intgo _wrap_Binary_log_event_get_event_type_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   enum binary_log::Log_event_type result;
   intgo _swig_go_result;
@@ -1635,7 +1635,7 @@ intgo _wrap_Binary_log_event_get_event_type_mysql_061405b0074197b1(binary_log::B
 }
 
 
-binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_0_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_0_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
@@ -1648,7 +1648,7 @@ binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_0_mysql_061405
 }
 
 
-binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_1_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_1_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
@@ -1661,7 +1661,7 @@ binary_log::Log_event_header *_wrap_Binary_log_event_header__SWIG_1_mysql_061405
 }
 
 
-binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_0_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_0_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;
@@ -1674,7 +1674,7 @@ binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_0_mysql_061405
 }
 
 
-binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_1_mysql_061405b0074197b1(binary_log::Binary_log_event *_swig_go_0) {
+binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_1_mysql_events_06df29421e916f40(binary_log::Binary_log_event *_swig_go_0) {
   binary_log::Binary_log_event *arg1 = (binary_log::Binary_log_event *) 0 ;
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;
@@ -1687,7 +1687,7 @@ binary_log::Log_event_footer *_wrap_Binary_log_event_footer__SWIG_1_mysql_061405
 }
 
 
-binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_0_mysql_061405b0074197b1() {
+binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_0_mysql_events_06df29421e916f40() {
   binary_log::Unknown_event *result = 0 ;
   binary_log::Unknown_event *_swig_go_result;
   
@@ -1698,7 +1698,7 @@ binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_0_mysql_061405b0074197b
 }
 
 
-binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_1_mysql_061405b0074197b1(_gostring_ _swig_go_0, binary_log::Format_description_event *_swig_go_1) {
+binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_1_mysql_events_06df29421e916f40(_gostring_ _swig_go_0, binary_log::Format_description_event *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   binary_log::Format_description_event *arg2 = (binary_log::Format_description_event *) 0 ;
   binary_log::Unknown_event *result = 0 ;
@@ -1718,7 +1718,7 @@ binary_log::Unknown_event *_wrap_new_Unknown_event__SWIG_1_mysql_061405b0074197b
 }
 
 
-void _wrap_Unknown_event_print_event_info_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0, std::ostream *_swig_go_1) {
+void _wrap_Unknown_event_print_event_info_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0, std::ostream *_swig_go_1) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   std::ostream *arg2 = 0 ;
   
@@ -1730,7 +1730,7 @@ void _wrap_Unknown_event_print_event_info_mysql_061405b0074197b1(binary_log::Unk
 }
 
 
-void _wrap_Unknown_event_print_long_info_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0, std::ostream *_swig_go_1) {
+void _wrap_Unknown_event_print_long_info_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0, std::ostream *_swig_go_1) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   std::ostream *arg2 = 0 ;
   
@@ -1742,7 +1742,7 @@ void _wrap_Unknown_event_print_long_info_mysql_061405b0074197b1(binary_log::Unkn
 }
 
 
-void _wrap_delete_Unknown_event_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+void _wrap_delete_Unknown_event_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   
   arg1 = *(binary_log::Unknown_event **)&_swig_go_0; 
@@ -1752,7 +1752,7 @@ void _wrap_delete_Unknown_event_mysql_061405b0074197b1(binary_log::Unknown_event
 }
 
 
-intgo _wrap_Unknown_event_get_event_type_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+intgo _wrap_Unknown_event_get_event_type_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   enum binary_log::Log_event_type result;
   intgo _swig_go_result;
@@ -1766,7 +1766,7 @@ intgo _wrap_Unknown_event_get_event_type_mysql_061405b0074197b1(binary_log::Unkn
 }
 
 
-binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_0_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_0_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
@@ -1780,7 +1780,7 @@ binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_0_mysql_061405b00
 }
 
 
-binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_1_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_1_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   binary_log::Log_event_header *result = 0 ;
   binary_log::Log_event_header *_swig_go_result;
@@ -1794,7 +1794,7 @@ binary_log::Log_event_header *_wrap_Unknown_event_header__SWIG_1_mysql_061405b00
 }
 
 
-binary_log::Log_event_footer *_wrap_Unknown_event_footer__SWIG_0_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+binary_log::Log_event_footer *_wrap_Unknown_event_footer__SWIG_0_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;
@@ -1808,7 +1808,7 @@ binary_log::Log_event_footer *_wrap_Unknown_event_footer__SWIG_0_mysql_061405b00
 }
 
 
-binary_log::Log_event_footer *_wrap_Unknown_event_footer__SWIG_1_mysql_061405b0074197b1(binary_log::Unknown_event *_swig_go_0) {
+binary_log::Log_event_footer *_wrap_Unknown_event_footer__SWIG_1_mysql_events_06df29421e916f40(binary_log::Unknown_event *_swig_go_0) {
   binary_log::Unknown_event *arg1 = (binary_log::Unknown_event *) 0 ;
   binary_log::Log_event_footer *result = 0 ;
   binary_log::Log_event_footer *_swig_go_result;

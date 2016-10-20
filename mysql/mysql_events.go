@@ -42,130 +42,130 @@ typedef long long swig_type_11;
 typedef long long swig_type_12;
 typedef _gostring_ swig_type_13;
 typedef _gostring_ swig_type_14;
-extern void _wrap_Swig_free_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_mysql_061405b0074197b1(swig_intgo arg1);
-extern swig_intgo _wrap_NAME_LEN_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_061405b0074197b1(void);
-extern uintptr_t _wrap_SEQ_UNINIT_get_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_061405b0074197b1(void);
-extern void _wrap_do_server_version_split_mysql_061405b0074197b1(swig_type_1 arg1, swig_voidp arg2);
-extern swig_type_2 _wrap_version_product_mysql_061405b0074197b1(swig_voidp arg1);
-extern swig_voidp _wrap_checksum_version_split_get_mysql_061405b0074197b1(void);
-extern swig_type_3 _wrap_checksum_version_product_get_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_UNKNOWN_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_START_EVENT_V3_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_QUERY_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_STOP_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ROTATE_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_INTVAR_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_LOAD_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_SLAVE_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_CREATE_FILE_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_APPEND_BLOCK_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EXEC_LOAD_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_DELETE_FILE_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_NEW_LOAD_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_RAND_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_USER_VAR_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_FORMAT_DESCRIPTION_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_XID_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BEGIN_LOAD_QUERY_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_TABLE_MAP_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_WRITE_ROWS_EVENT_V1_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_UPDATE_ROWS_EVENT_V1_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_DELETE_ROWS_EVENT_V1_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_INCIDENT_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_HEARTBEAT_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_IGNORABLE_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ROWS_QUERY_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_WRITE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_UPDATE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_DELETE_ROWS_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_GTID_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_TRANSACTION_CONTEXT_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_VIEW_CHANGE_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ENUM_END_EVENT_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ST_CREATED_OFFSET_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_061405b0074197b1(void);
-extern uintptr_t _wrap_checksum_crc32_mysql_061405b0074197b1(uintptr_t arg1, swig_voidp arg2, swig_type_4 arg3);
-extern swig_intgo _wrap_read_str_at_most_255_bytes_mysql_061405b0074197b1(swig_voidp arg1, swig_type_5 arg2, swig_voidp arg3, uintptr_t arg4);
-extern swig_intgo _wrap_Log_event_footer_get_checksum_alg_mysql_061405b0074197b1(swig_type_6 arg1, swig_type_7 arg2);
-extern _Bool _wrap_Log_event_footer_event_checksum_test_mysql_061405b0074197b1(swig_voidp arg1, swig_type_8 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_new_Log_event_footer__SWIG_0_mysql_061405b0074197b1(void);
-extern uintptr_t _wrap_new_Log_event_footer__SWIG_1_mysql_061405b0074197b1(swig_intgo arg1);
-extern void _wrap_Log_event_footer_checksum_alg_set_mysql_061405b0074197b1(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Log_event_footer_checksum_alg_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_delete_Log_event_footer_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_when_set_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Log_event_header_when_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_type_code_set_mysql_061405b0074197b1(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Log_event_header_type_code_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_unmasked_server_id_set_mysql_061405b0074197b1(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Log_event_header_unmasked_server_id_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_data_written_set_mysql_061405b0074197b1(uintptr_t arg1, swig_type_9 arg2);
-extern swig_type_10 _wrap_Log_event_header_data_written_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_log_pos_set_mysql_061405b0074197b1(uintptr_t arg1, swig_type_11 arg2);
-extern swig_type_12 _wrap_Log_event_header_log_pos_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern void _wrap_Log_event_header_flags_set_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Log_event_header_flags_get_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_new_Log_event_header__SWIG_0_mysql_061405b0074197b1(swig_intgo arg1);
-extern uintptr_t _wrap_new_Log_event_header__SWIG_1_mysql_061405b0074197b1(void);
-extern uintptr_t _wrap_new_Log_event_header__SWIG_2_mysql_061405b0074197b1(swig_type_13 arg1, uintptr_t arg2);
-extern void _wrap_delete_Log_event_header_mysql_061405b0074197b1(uintptr_t arg1);
-extern swig_intgo _wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_STOP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_RAND_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_XID_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1(void);
-extern swig_intgo _wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_061405b0074197b1(void);
-extern void _wrap_Binary_log_event_print_event_info_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Binary_log_event_print_long_info_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_Binary_log_event_mysql_061405b0074197b1(uintptr_t arg1);
-extern swig_intgo _wrap_Binary_log_event_get_event_type_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_Binary_log_event_header__SWIG_0_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_Binary_log_event_header__SWIG_1_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_Binary_log_event_footer__SWIG_0_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_Binary_log_event_footer__SWIG_1_mysql_061405b0074197b1(uintptr_t arg1);
-extern uintptr_t _wrap_new_Unknown_event__SWIG_0_mysql_061405b0074197b1(void);
-extern uintptr_t _wrap_new_Unknown_event__SWIG_1_mysql_061405b0074197b1(swig_type_14 arg1, uintptr_t arg2);
-extern void _wrap_Unknown_event_print_event_info_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Unknown_event_print_long_info_mysql_061405b0074197b1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_Unknown_event_mysql_061405b0074197b1(uintptr_t arg1);
-extern swig_intgo _wrap_Unknown_event_get_event_type_mysql_061405b0074197b1(uintptr_t _swig_base);
-extern uintptr_t _wrap_Unknown_event_header__SWIG_0_mysql_061405b0074197b1(uintptr_t _swig_base);
-extern uintptr_t _wrap_Unknown_event_header__SWIG_1_mysql_061405b0074197b1(uintptr_t _swig_base);
-extern uintptr_t _wrap_Unknown_event_footer__SWIG_0_mysql_061405b0074197b1(uintptr_t _swig_base);
-extern uintptr_t _wrap_Unknown_event_footer__SWIG_1_mysql_061405b0074197b1(uintptr_t _swig_base);
+extern void _wrap_Swig_free_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_mysql_events_06df29421e916f40(swig_intgo arg1);
+extern swig_intgo _wrap_NAME_LEN_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_events_06df29421e916f40(void);
+extern uintptr_t _wrap_SEQ_UNINIT_get_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_events_06df29421e916f40(void);
+extern void _wrap_do_server_version_split_mysql_events_06df29421e916f40(swig_type_1 arg1, swig_voidp arg2);
+extern swig_type_2 _wrap_version_product_mysql_events_06df29421e916f40(swig_voidp arg1);
+extern swig_voidp _wrap_checksum_version_split_get_mysql_events_06df29421e916f40(void);
+extern swig_type_3 _wrap_checksum_version_product_get_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_UNKNOWN_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_START_EVENT_V3_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_QUERY_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_STOP_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ROTATE_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_INTVAR_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_LOAD_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_SLAVE_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_CREATE_FILE_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_APPEND_BLOCK_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EXEC_LOAD_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_DELETE_FILE_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_NEW_LOAD_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_RAND_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_USER_VAR_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_FORMAT_DESCRIPTION_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_XID_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BEGIN_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_TABLE_MAP_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_WRITE_ROWS_EVENT_V1_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_UPDATE_ROWS_EVENT_V1_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_DELETE_ROWS_EVENT_V1_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_INCIDENT_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_HEARTBEAT_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_IGNORABLE_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ROWS_QUERY_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_GTID_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_TRANSACTION_CONTEXT_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_VIEW_CHANGE_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ENUM_END_EVENT_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ST_CREATED_OFFSET_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_events_06df29421e916f40(void);
+extern uintptr_t _wrap_checksum_crc32_mysql_events_06df29421e916f40(uintptr_t arg1, swig_voidp arg2, swig_type_4 arg3);
+extern swig_intgo _wrap_read_str_at_most_255_bytes_mysql_events_06df29421e916f40(swig_voidp arg1, swig_type_5 arg2, swig_voidp arg3, uintptr_t arg4);
+extern swig_intgo _wrap_Log_event_footer_get_checksum_alg_mysql_events_06df29421e916f40(swig_type_6 arg1, swig_type_7 arg2);
+extern _Bool _wrap_Log_event_footer_event_checksum_test_mysql_events_06df29421e916f40(swig_voidp arg1, swig_type_8 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_new_Log_event_footer__SWIG_0_mysql_events_06df29421e916f40(void);
+extern uintptr_t _wrap_new_Log_event_footer__SWIG_1_mysql_events_06df29421e916f40(swig_intgo arg1);
+extern void _wrap_Log_event_footer_checksum_alg_set_mysql_events_06df29421e916f40(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Log_event_footer_checksum_alg_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_delete_Log_event_footer_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_when_set_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Log_event_header_when_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_type_code_set_mysql_events_06df29421e916f40(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Log_event_header_type_code_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_unmasked_server_id_set_mysql_events_06df29421e916f40(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Log_event_header_unmasked_server_id_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_data_written_set_mysql_events_06df29421e916f40(uintptr_t arg1, swig_type_9 arg2);
+extern swig_type_10 _wrap_Log_event_header_data_written_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_log_pos_set_mysql_events_06df29421e916f40(uintptr_t arg1, swig_type_11 arg2);
+extern swig_type_12 _wrap_Log_event_header_log_pos_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern void _wrap_Log_event_header_flags_set_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Log_event_header_flags_get_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_new_Log_event_header__SWIG_0_mysql_events_06df29421e916f40(swig_intgo arg1);
+extern uintptr_t _wrap_new_Log_event_header__SWIG_1_mysql_events_06df29421e916f40(void);
+extern uintptr_t _wrap_new_Log_event_header__SWIG_2_mysql_events_06df29421e916f40(swig_type_13 arg1, uintptr_t arg2);
+extern void _wrap_delete_Log_event_header_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern swig_intgo _wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_STOP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_RAND_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_XID_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern swig_intgo _wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_events_06df29421e916f40(void);
+extern void _wrap_Binary_log_event_print_event_info_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Binary_log_event_print_long_info_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Binary_log_event_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern swig_intgo _wrap_Binary_log_event_get_event_type_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_Binary_log_event_header__SWIG_0_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_Binary_log_event_header__SWIG_1_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_Binary_log_event_footer__SWIG_0_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_Binary_log_event_footer__SWIG_1_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern uintptr_t _wrap_new_Unknown_event__SWIG_0_mysql_events_06df29421e916f40(void);
+extern uintptr_t _wrap_new_Unknown_event__SWIG_1_mysql_events_06df29421e916f40(swig_type_14 arg1, uintptr_t arg2);
+extern void _wrap_Unknown_event_print_event_info_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Unknown_event_print_long_info_mysql_events_06df29421e916f40(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Unknown_event_mysql_events_06df29421e916f40(uintptr_t arg1);
+extern swig_intgo _wrap_Unknown_event_get_event_type_mysql_events_06df29421e916f40(uintptr_t _swig_base);
+extern uintptr_t _wrap_Unknown_event_header__SWIG_0_mysql_events_06df29421e916f40(uintptr_t _swig_base);
+extern uintptr_t _wrap_Unknown_event_header__SWIG_1_mysql_events_06df29421e916f40(uintptr_t _swig_base);
+extern uintptr_t _wrap_Unknown_event_footer__SWIG_0_mysql_events_06df29421e916f40(uintptr_t _swig_base);
+extern uintptr_t _wrap_Unknown_event_footer__SWIG_1_mysql_events_06df29421e916f40(uintptr_t _swig_base);
 #undef intgo
 */
 import "C"
@@ -191,13 +191,13 @@ type _ sync.Mutex
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_mysql_061405b0074197b1(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_mysql_events_06df29421e916f40(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -205,7 +205,7 @@ const SYSTEM_CHARSET_MBMAXLEN int = 3
 const NAME_CHAR_LEN int = 64
 func _swig_getNAME_LEN() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_NAME_LEN_mysql_061405b0074197b1())
+	swig_r = (int)(C._wrap_NAME_LEN_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -221,14 +221,14 @@ const COMMIT_SEQ_LEN int = 16
 const COMMIT_SEQ_LEN_OLD int = 8
 func _swig_getMAX_SIZE_LOG_EVENT_STATUS() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_061405b0074197b1())
+	swig_r = (uint)(C._wrap_MAX_SIZE_LOG_EVENT_STATUS_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var MAX_SIZE_LOG_EVENT_STATUS uint = _swig_getMAX_SIZE_LOG_EVENT_STATUS()
 func GetSEQ_UNINIT() (_swig_ret Int64_t) {
 	var swig_r Int64_t
-	swig_r = (Int64_t)(SwigcptrInt64_t(C._wrap_SEQ_UNINIT_get_mysql_061405b0074197b1()))
+	swig_r = (Int64_t)(SwigcptrInt64_t(C._wrap_SEQ_UNINIT_get_mysql_events_06df29421e916f40()))
 	return swig_r
 }
 
@@ -236,14 +236,14 @@ const LOG_EVENT_IGNORABLE_F int = 0x80
 const FN_REFLEN int = 512
 func GetEVENT_TYPE_PERMUTATION_NUM() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_061405b0074197b1())
+	swig_r = (uint)(C._wrap_EVENT_TYPE_PERMUTATION_NUM_get_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 func Do_server_version_split(arg1 string, arg2 *byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_do_server_version_split_mysql_061405b0074197b1(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1))
+	C._wrap_do_server_version_split_mysql_events_06df29421e916f40(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)), C.swig_voidp(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -252,19 +252,19 @@ func Do_server_version_split(arg1 string, arg2 *byte) {
 func Version_product(arg1 *byte) (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_version_product_mysql_061405b0074197b1(C.swig_voidp(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_version_product_mysql_events_06df29421e916f40(C.swig_voidp(_swig_i_0)))
 	return swig_r
 }
 
 func GetChecksum_version_split() (_swig_ret *byte) {
 	var swig_r *byte
-	swig_r = (*byte)(C._wrap_checksum_version_split_get_mysql_061405b0074197b1())
+	swig_r = (*byte)(C._wrap_checksum_version_split_get_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 func GetChecksum_version_product() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_checksum_version_product_get_mysql_061405b0074197b1())
+	swig_r = (uint64)(C._wrap_checksum_version_product_get_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -278,273 +278,273 @@ const LOG_EVENT_RELAY_LOG_F int = 0x40
 type Binary_logLog_event_type int
 func _swig_getUNKNOWN_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_UNKNOWN_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_UNKNOWN_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var UNKNOWN_EVENT Binary_logLog_event_type = _swig_getUNKNOWN_EVENT()
 func _swig_getSTART_EVENT_V3() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_START_EVENT_V3_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_START_EVENT_V3_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var START_EVENT_V3 Binary_logLog_event_type = _swig_getSTART_EVENT_V3()
 func _swig_getQUERY_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_QUERY_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_QUERY_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var QUERY_EVENT Binary_logLog_event_type = _swig_getQUERY_EVENT()
 func _swig_getSTOP_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_STOP_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_STOP_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var STOP_EVENT Binary_logLog_event_type = _swig_getSTOP_EVENT()
 func _swig_getROTATE_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_ROTATE_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_ROTATE_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var ROTATE_EVENT Binary_logLog_event_type = _swig_getROTATE_EVENT()
 func _swig_getINTVAR_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_INTVAR_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_INTVAR_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var INTVAR_EVENT Binary_logLog_event_type = _swig_getINTVAR_EVENT()
 func _swig_getLOAD_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_LOAD_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_LOAD_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var LOAD_EVENT Binary_logLog_event_type = _swig_getLOAD_EVENT()
 func _swig_getSLAVE_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_SLAVE_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_SLAVE_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var SLAVE_EVENT Binary_logLog_event_type = _swig_getSLAVE_EVENT()
 func _swig_getCREATE_FILE_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_CREATE_FILE_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_CREATE_FILE_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var CREATE_FILE_EVENT Binary_logLog_event_type = _swig_getCREATE_FILE_EVENT()
 func _swig_getAPPEND_BLOCK_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_APPEND_BLOCK_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_APPEND_BLOCK_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var APPEND_BLOCK_EVENT Binary_logLog_event_type = _swig_getAPPEND_BLOCK_EVENT()
 func _swig_getEXEC_LOAD_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_EXEC_LOAD_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_EXEC_LOAD_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var EXEC_LOAD_EVENT Binary_logLog_event_type = _swig_getEXEC_LOAD_EVENT()
 func _swig_getDELETE_FILE_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_FILE_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_FILE_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var DELETE_FILE_EVENT Binary_logLog_event_type = _swig_getDELETE_FILE_EVENT()
 func _swig_getNEW_LOAD_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_NEW_LOAD_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_NEW_LOAD_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var NEW_LOAD_EVENT Binary_logLog_event_type = _swig_getNEW_LOAD_EVENT()
 func _swig_getRAND_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_RAND_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_RAND_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var RAND_EVENT Binary_logLog_event_type = _swig_getRAND_EVENT()
 func _swig_getUSER_VAR_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_USER_VAR_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_USER_VAR_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var USER_VAR_EVENT Binary_logLog_event_type = _swig_getUSER_VAR_EVENT()
 func _swig_getFORMAT_DESCRIPTION_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_FORMAT_DESCRIPTION_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_FORMAT_DESCRIPTION_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var FORMAT_DESCRIPTION_EVENT Binary_logLog_event_type = _swig_getFORMAT_DESCRIPTION_EVENT()
 func _swig_getXID_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_XID_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_XID_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var XID_EVENT Binary_logLog_event_type = _swig_getXID_EVENT()
 func _swig_getBEGIN_LOAD_QUERY_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_BEGIN_LOAD_QUERY_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_BEGIN_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var BEGIN_LOAD_QUERY_EVENT Binary_logLog_event_type = _swig_getBEGIN_LOAD_QUERY_EVENT()
 func _swig_getEXECUTE_LOAD_QUERY_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_EXECUTE_LOAD_QUERY_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var EXECUTE_LOAD_QUERY_EVENT Binary_logLog_event_type = _swig_getEXECUTE_LOAD_QUERY_EVENT()
 func _swig_getTABLE_MAP_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_TABLE_MAP_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_TABLE_MAP_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var TABLE_MAP_EVENT Binary_logLog_event_type = _swig_getTABLE_MAP_EVENT()
 func _swig_getPRE_GA_WRITE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var PRE_GA_WRITE_ROWS_EVENT Binary_logLog_event_type = _swig_getPRE_GA_WRITE_ROWS_EVENT()
 func _swig_getPRE_GA_UPDATE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var PRE_GA_UPDATE_ROWS_EVENT Binary_logLog_event_type = _swig_getPRE_GA_UPDATE_ROWS_EVENT()
 func _swig_getPRE_GA_DELETE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_PRE_GA_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var PRE_GA_DELETE_ROWS_EVENT Binary_logLog_event_type = _swig_getPRE_GA_DELETE_ROWS_EVENT()
 func _swig_getWRITE_ROWS_EVENT_V1() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_WRITE_ROWS_EVENT_V1_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_WRITE_ROWS_EVENT_V1_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var WRITE_ROWS_EVENT_V1 Binary_logLog_event_type = _swig_getWRITE_ROWS_EVENT_V1()
 func _swig_getUPDATE_ROWS_EVENT_V1() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_UPDATE_ROWS_EVENT_V1_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_UPDATE_ROWS_EVENT_V1_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var UPDATE_ROWS_EVENT_V1 Binary_logLog_event_type = _swig_getUPDATE_ROWS_EVENT_V1()
 func _swig_getDELETE_ROWS_EVENT_V1() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_ROWS_EVENT_V1_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_ROWS_EVENT_V1_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var DELETE_ROWS_EVENT_V1 Binary_logLog_event_type = _swig_getDELETE_ROWS_EVENT_V1()
 func _swig_getINCIDENT_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_INCIDENT_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_INCIDENT_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var INCIDENT_EVENT Binary_logLog_event_type = _swig_getINCIDENT_EVENT()
 func _swig_getHEARTBEAT_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_HEARTBEAT_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_HEARTBEAT_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var HEARTBEAT_LOG_EVENT Binary_logLog_event_type = _swig_getHEARTBEAT_LOG_EVENT()
 func _swig_getIGNORABLE_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_IGNORABLE_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_IGNORABLE_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var IGNORABLE_LOG_EVENT Binary_logLog_event_type = _swig_getIGNORABLE_LOG_EVENT()
 func _swig_getROWS_QUERY_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_ROWS_QUERY_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_ROWS_QUERY_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var ROWS_QUERY_LOG_EVENT Binary_logLog_event_type = _swig_getROWS_QUERY_LOG_EVENT()
 func _swig_getWRITE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_WRITE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_WRITE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var WRITE_ROWS_EVENT Binary_logLog_event_type = _swig_getWRITE_ROWS_EVENT()
 func _swig_getUPDATE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_UPDATE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_UPDATE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var UPDATE_ROWS_EVENT Binary_logLog_event_type = _swig_getUPDATE_ROWS_EVENT()
 func _swig_getDELETE_ROWS_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_ROWS_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_DELETE_ROWS_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var DELETE_ROWS_EVENT Binary_logLog_event_type = _swig_getDELETE_ROWS_EVENT()
 func _swig_getGTID_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_GTID_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_GTID_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var GTID_LOG_EVENT Binary_logLog_event_type = _swig_getGTID_LOG_EVENT()
 func _swig_getANONYMOUS_GTID_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_ANONYMOUS_GTID_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var ANONYMOUS_GTID_LOG_EVENT Binary_logLog_event_type = _swig_getANONYMOUS_GTID_LOG_EVENT()
 func _swig_getPREVIOUS_GTIDS_LOG_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_PREVIOUS_GTIDS_LOG_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var PREVIOUS_GTIDS_LOG_EVENT Binary_logLog_event_type = _swig_getPREVIOUS_GTIDS_LOG_EVENT()
 func _swig_getTRANSACTION_CONTEXT_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_TRANSACTION_CONTEXT_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_TRANSACTION_CONTEXT_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var TRANSACTION_CONTEXT_EVENT Binary_logLog_event_type = _swig_getTRANSACTION_CONTEXT_EVENT()
 func _swig_getVIEW_CHANGE_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_VIEW_CHANGE_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_VIEW_CHANGE_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var VIEW_CHANGE_EVENT Binary_logLog_event_type = _swig_getVIEW_CHANGE_EVENT()
 func _swig_getENUM_END_EVENT() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_ENUM_END_EVENT_mysql_061405b0074197b1())
+	swig_r = (Binary_logLog_event_type)(C._wrap_ENUM_END_EVENT_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -559,14 +559,14 @@ const ST_BINLOG_VER_OFFSET int = 0
 const ST_SERVER_VER_OFFSET int = 2
 func _swig_getST_CREATED_OFFSET() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_ST_CREATED_OFFSET_mysql_061405b0074197b1())
+	swig_r = (int)(C._wrap_ST_CREATED_OFFSET_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var ST_CREATED_OFFSET int = _swig_getST_CREATED_OFFSET()
 func _swig_getST_COMMON_HEADER_LEN_OFFSET() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_061405b0074197b1())
+	swig_r = (int)(C._wrap_ST_COMMON_HEADER_LEN_OFFSET_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -577,28 +577,28 @@ const LOG_EVENT_MINIMAL_HEADER_LEN uint = 19
 type Binary_logEnum_binlog_checksum_alg int
 func _swig_getBINLOG_CHECKSUM_ALG_OFF() (_swig_ret Binary_logEnum_binlog_checksum_alg) {
 	var swig_r Binary_logEnum_binlog_checksum_alg
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_061405b0074197b1())
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_OFF_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var BINLOG_CHECKSUM_ALG_OFF Binary_logEnum_binlog_checksum_alg = _swig_getBINLOG_CHECKSUM_ALG_OFF()
 func _swig_getBINLOG_CHECKSUM_ALG_CRC32() (_swig_ret Binary_logEnum_binlog_checksum_alg) {
 	var swig_r Binary_logEnum_binlog_checksum_alg
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_061405b0074197b1())
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_CRC32_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var BINLOG_CHECKSUM_ALG_CRC32 Binary_logEnum_binlog_checksum_alg = _swig_getBINLOG_CHECKSUM_ALG_CRC32()
 func _swig_getBINLOG_CHECKSUM_ALG_ENUM_END() (_swig_ret Binary_logEnum_binlog_checksum_alg) {
 	var swig_r Binary_logEnum_binlog_checksum_alg
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_061405b0074197b1())
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_ENUM_END_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var BINLOG_CHECKSUM_ALG_ENUM_END Binary_logEnum_binlog_checksum_alg = _swig_getBINLOG_CHECKSUM_ALG_ENUM_END()
 func _swig_getBINLOG_CHECKSUM_ALG_UNDEF() (_swig_ret Binary_logEnum_binlog_checksum_alg) {
 	var swig_r Binary_logEnum_binlog_checksum_alg
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_061405b0074197b1())
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_BINLOG_CHECKSUM_ALG_UNDEF_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -612,7 +612,7 @@ func Checksum_crc32(arg1 Uint32_t, arg2 *byte, arg3 int64) (_swig_ret Uint32_t) 
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Uint32_t)(SwigcptrUint32_t(C._wrap_checksum_crc32_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_type_4(_swig_i_2))))
+	swig_r = (Uint32_t)(SwigcptrUint32_t(C._wrap_checksum_crc32_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_type_4(_swig_i_2))))
 	return swig_r
 }
 
@@ -622,7 +622,7 @@ func Read_str_at_most_255_bytes(arg1 *string, arg2 string, arg3 *string, arg4 Ui
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (int)(C._wrap_read_str_at_most_255_bytes_mysql_061405b0074197b1(C.swig_voidp(_swig_i_0), *(*C.swig_type_5)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (int)(C._wrap_read_str_at_most_255_bytes_mysql_events_06df29421e916f40(C.swig_voidp(_swig_i_0), *(*C.swig_type_5)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -642,7 +642,7 @@ func Log_event_footerGet_checksum_alg(arg1 string, arg2 uint64) (_swig_ret Binar
 	var swig_r Binary_logEnum_binlog_checksum_alg
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_Log_event_footer_get_checksum_alg_mysql_061405b0074197b1(*(*C.swig_type_6)(unsafe.Pointer(&_swig_i_0)), C.swig_type_7(_swig_i_1)))
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_Log_event_footer_get_checksum_alg_mysql_events_06df29421e916f40(*(*C.swig_type_6)(unsafe.Pointer(&_swig_i_0)), C.swig_type_7(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -654,20 +654,20 @@ func Log_event_footerEvent_checksum_test(arg1 *byte, arg2 uint64, arg3 Binary_lo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Log_event_footer_event_checksum_test_mysql_061405b0074197b1(C.swig_voidp(_swig_i_0), C.swig_type_8(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Log_event_footer_event_checksum_test_mysql_events_06df29421e916f40(C.swig_voidp(_swig_i_0), C.swig_type_8(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
 func NewLog_event_footer__SWIG_0() (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_new_Log_event_footer__SWIG_0_mysql_061405b0074197b1()))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_new_Log_event_footer__SWIG_0_mysql_events_06df29421e916f40()))
 	return swig_r
 }
 
 func NewLog_event_footer__SWIG_1(arg1 Binary_logEnum_binlog_checksum_alg) (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
 	_swig_i_0 := arg1
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_new_Log_event_footer__SWIG_1_mysql_061405b0074197b1(C.swig_intgo(_swig_i_0))))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_new_Log_event_footer__SWIG_1_mysql_events_06df29421e916f40(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -685,19 +685,19 @@ func NewLog_event_footer(a ...interface{}) Log_event_footer {
 func (arg1 SwigcptrLog_event_footer) SetChecksum_alg(arg2 Binary_logEnum_binlog_checksum_alg) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Log_event_footer_checksum_alg_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Log_event_footer_checksum_alg_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_footer) GetChecksum_alg() (_swig_ret Binary_logEnum_binlog_checksum_alg) {
 	var swig_r Binary_logEnum_binlog_checksum_alg
 	_swig_i_0 := arg1
-	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_Log_event_footer_checksum_alg_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (Binary_logEnum_binlog_checksum_alg)(C._wrap_Log_event_footer_checksum_alg_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteLog_event_footer(arg1 Log_event_footer) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Log_event_footer_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Log_event_footer_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))
 }
 
 type Log_event_footer interface {
@@ -719,91 +719,91 @@ func (p SwigcptrLog_event_header) SwigIsLog_event_header() {
 func (arg1 SwigcptrLog_event_header) SetWhen(arg2 Timeval) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Log_event_header_when_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Log_event_header_when_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetWhen() (_swig_ret Timeval) {
 	var swig_r Timeval
 	_swig_i_0 := arg1
-	swig_r = (Timeval)(SwigcptrTimeval(C._wrap_Log_event_header_when_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Timeval)(SwigcptrTimeval(C._wrap_Log_event_header_when_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrLog_event_header) SetType_code(arg2 Binary_logLog_event_type) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Log_event_header_type_code_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Log_event_header_type_code_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetType_code() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
 	_swig_i_0 := arg1
-	swig_r = (Binary_logLog_event_type)(C._wrap_Log_event_header_type_code_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (Binary_logLog_event_type)(C._wrap_Log_event_header_type_code_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrLog_event_header) SetUnmasked_server_id(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Log_event_header_unmasked_server_id_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Log_event_header_unmasked_server_id_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetUnmasked_server_id() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Log_event_header_unmasked_server_id_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Log_event_header_unmasked_server_id_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrLog_event_header) SetData_written(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Log_event_header_data_written_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))
+	C._wrap_Log_event_header_data_written_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetData_written() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_Log_event_header_data_written_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Log_event_header_data_written_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrLog_event_header) SetLog_pos(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Log_event_header_log_pos_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.swig_type_11(_swig_i_1))
+	C._wrap_Log_event_header_log_pos_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.swig_type_11(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetLog_pos() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_Log_event_header_log_pos_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_Log_event_header_log_pos_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrLog_event_header) SetFlags(arg2 Uint16_t) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Log_event_header_flags_set_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Log_event_header_flags_set_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrLog_event_header) GetFlags() (_swig_ret Uint16_t) {
 	var swig_r Uint16_t
 	_swig_i_0 := arg1
-	swig_r = (Uint16_t)(SwigcptrUint16_t(C._wrap_Log_event_header_flags_get_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Uint16_t)(SwigcptrUint16_t(C._wrap_Log_event_header_flags_get_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewLog_event_header__SWIG_0(arg1 Binary_logLog_event_type) (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
 	_swig_i_0 := arg1
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_0_mysql_061405b0074197b1(C.swig_intgo(_swig_i_0))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_0_mysql_events_06df29421e916f40(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func NewLog_event_header__SWIG_1() (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_1_mysql_061405b0074197b1()))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_1_mysql_events_06df29421e916f40()))
 	return swig_r
 }
 
@@ -811,7 +811,7 @@ func NewLog_event_header__SWIG_2(arg1 string, arg2 Uint16_t) (_swig_ret Log_even
 	var swig_r Log_event_header
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_2_mysql_061405b0074197b1(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_new_Log_event_header__SWIG_2_mysql_events_06df29421e916f40(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -834,7 +834,7 @@ func NewLog_event_header(a ...interface{}) Log_event_header {
 
 func DeleteLog_event_header(arg1 Log_event_header) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Log_event_header_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Log_event_header_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))
 }
 
 type Log_event_header interface {
@@ -865,7 +865,7 @@ func (p SwigcptrBinary_log_event) SwigIsBinary_log_event() {
 
 func _swig_getBinary_log_event_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (int)(C._wrap_Binary_log_event_LOG_EVENT_TYPES_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -873,175 +873,175 @@ var Binary_log_eventLOG_EVENT_TYPES int = _swig_getBinary_log_event_Binary_log_e
 type Binary_logBinary_log_eventEnum_post_header_length int
 func _swig_getBinary_log_event_QUERY_HEADER_MINIMAL_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_QUERY_HEADER_MINIMAL_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventQUERY_HEADER_MINIMAL_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_QUERY_HEADER_MINIMAL_LEN_Binary_log_event()
 func _swig_getBinary_log_event_QUERY_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventQUERY_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_QUERY_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_STOP_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_STOP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_STOP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventSTOP_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_STOP_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_LOAD_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventLOAD_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_LOAD_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_START_V3_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_START_V3_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventSTART_V3_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_START_V3_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_ROTATE_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROTATE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventROTATE_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_ROTATE_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_INTVAR_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_INTVAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventINTVAR_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_INTVAR_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_CREATE_FILE_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_CREATE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventCREATE_FILE_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_CREATE_FILE_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_APPEND_BLOCK_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_APPEND_BLOCK_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventAPPEND_BLOCK_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_APPEND_BLOCK_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_EXEC_LOAD_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXEC_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventEXEC_LOAD_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_EXEC_LOAD_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_DELETE_FILE_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_DELETE_FILE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventDELETE_FILE_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_DELETE_FILE_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_NEW_LOAD_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_NEW_LOAD_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventNEW_LOAD_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_NEW_LOAD_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_RAND_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_RAND_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_RAND_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventRAND_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_RAND_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_USER_VAR_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_USER_VAR_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventUSER_VAR_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_USER_VAR_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventFORMAT_DESCRIPTION_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_FORMAT_DESCRIPTION_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_XID_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_XID_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_XID_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventXID_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_XID_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventBEGIN_LOAD_QUERY_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_BEGIN_LOAD_QUERY_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_ROWS_HEADER_LEN_V1_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROWS_HEADER_LEN_V1_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventROWS_HEADER_LEN_V1 Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_ROWS_HEADER_LEN_V1_Binary_log_event()
 func _swig_getBinary_log_event_TABLE_MAP_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_TABLE_MAP_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventTABLE_MAP_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_TABLE_MAP_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventEXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_EXECUTE_LOAD_QUERY_EXTRA_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventEXECUTE_LOAD_QUERY_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_EXECUTE_LOAD_QUERY_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_INCIDENT_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_INCIDENT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventINCIDENT_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_INCIDENT_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_HEARTBEAT_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_HEARTBEAT_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventHEARTBEAT_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_HEARTBEAT_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_IGNORABLE_HEADER_LEN_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_IGNORABLE_HEADER_LEN_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
 var Binary_log_eventIGNORABLE_HEADER_LEN Binary_logBinary_log_eventEnum_post_header_length = _swig_getBinary_log_event_IGNORABLE_HEADER_LEN_Binary_log_event()
 func _swig_getBinary_log_event_ROWS_HEADER_LEN_V2_Binary_log_event() (_swig_ret Binary_logBinary_log_eventEnum_post_header_length) {
 	var swig_r Binary_logBinary_log_eventEnum_post_header_length
-	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_061405b0074197b1())
+	swig_r = (Binary_logBinary_log_eventEnum_post_header_length)(C._wrap_ROWS_HEADER_LEN_V2_Binary_log_event_mysql_events_06df29421e916f40())
 	return swig_r
 }
 
@@ -1049,38 +1049,38 @@ var Binary_log_eventROWS_HEADER_LEN_V2 Binary_logBinary_log_eventEnum_post_heade
 func (arg1 SwigcptrBinary_log_event) Print_event_info(arg2 Std_ostream) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Binary_log_event_print_event_info_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Binary_log_event_print_event_info_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBinary_log_event) Print_long_info(arg2 Std_ostream) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Binary_log_event_print_long_info_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Binary_log_event_print_long_info_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DeleteBinary_log_event(arg1 Binary_log_event) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Binary_log_event_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Binary_log_event_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrBinary_log_event) Get_event_type() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
 	_swig_i_0 := arg1
-	swig_r = (Binary_logLog_event_type)(C._wrap_Binary_log_event_get_event_type_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0)))
+	swig_r = (Binary_logLog_event_type)(C._wrap_Binary_log_event_get_event_type_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBinary_log_event) Header__SWIG_0() (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
 	_swig_i_0 := arg1
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Binary_log_event_header__SWIG_0_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Binary_log_event_header__SWIG_0_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBinary_log_event) Header__SWIG_1() (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
 	_swig_i_0 := arg1
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Binary_log_event_header__SWIG_1_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Binary_log_event_header__SWIG_1_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1098,14 +1098,14 @@ func (p SwigcptrBinary_log_event) Header(a ...interface{}) interface{} {
 func (arg1 SwigcptrBinary_log_event) Footer__SWIG_0() (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
 	_swig_i_0 := arg1
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Binary_log_event_footer__SWIG_0_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Binary_log_event_footer__SWIG_0_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBinary_log_event) Footer__SWIG_1() (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
 	_swig_i_0 := arg1
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Binary_log_event_footer__SWIG_1_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Binary_log_event_footer__SWIG_1_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1141,7 +1141,7 @@ func (p SwigcptrUnknown_event) SwigIsUnknown_event() {
 
 func NewUnknown_event__SWIG_0() (_swig_ret Unknown_event) {
 	var swig_r Unknown_event
-	swig_r = (Unknown_event)(SwigcptrUnknown_event(C._wrap_new_Unknown_event__SWIG_0_mysql_061405b0074197b1()))
+	swig_r = (Unknown_event)(SwigcptrUnknown_event(C._wrap_new_Unknown_event__SWIG_0_mysql_events_06df29421e916f40()))
 	return swig_r
 }
 
@@ -1149,7 +1149,7 @@ func NewUnknown_event__SWIG_1(arg1 string, arg2 Binary_log_Format_description_ev
 	var swig_r Unknown_event
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Unknown_event)(SwigcptrUnknown_event(C._wrap_new_Unknown_event__SWIG_1_mysql_061405b0074197b1(*(*C.swig_type_14)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (Unknown_event)(SwigcptrUnknown_event(C._wrap_new_Unknown_event__SWIG_1_mysql_events_06df29421e916f40(*(*C.swig_type_14)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1170,35 +1170,35 @@ func NewUnknown_event(a ...interface{}) Unknown_event {
 func (arg1 SwigcptrUnknown_event) Print_event_info(arg2 Std_ostream) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Unknown_event_print_event_info_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Unknown_event_print_event_info_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrUnknown_event) Print_long_info(arg2 Std_ostream) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Unknown_event_print_long_info_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Unknown_event_print_long_info_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DeleteUnknown_event(arg1 Unknown_event) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Unknown_event_mysql_061405b0074197b1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Unknown_event_mysql_events_06df29421e916f40(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrUnknown_event) Get_event_type() (_swig_ret Binary_logLog_event_type) {
 	var swig_r Binary_logLog_event_type
-	swig_r = (Binary_logLog_event_type)(C._wrap_Unknown_event_get_event_type_mysql_061405b0074197b1(C.uintptr_t(_swig_base)))
+	swig_r = (Binary_logLog_event_type)(C._wrap_Unknown_event_get_event_type_mysql_events_06df29421e916f40(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrUnknown_event) Header__SWIG_0() (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Unknown_event_header__SWIG_0_mysql_061405b0074197b1(C.uintptr_t(_swig_base))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Unknown_event_header__SWIG_0_mysql_events_06df29421e916f40(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrUnknown_event) Header__SWIG_1() (_swig_ret Log_event_header) {
 	var swig_r Log_event_header
-	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Unknown_event_header__SWIG_1_mysql_061405b0074197b1(C.uintptr_t(_swig_base))))
+	swig_r = (Log_event_header)(SwigcptrLog_event_header(C._wrap_Unknown_event_header__SWIG_1_mysql_events_06df29421e916f40(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
@@ -1215,13 +1215,13 @@ func (p SwigcptrUnknown_event) Header(a ...interface{}) interface{} {
 
 func (_swig_base SwigcptrUnknown_event) Footer__SWIG_0() (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Unknown_event_footer__SWIG_0_mysql_061405b0074197b1(C.uintptr_t(_swig_base))))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Unknown_event_footer__SWIG_0_mysql_events_06df29421e916f40(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrUnknown_event) Footer__SWIG_1() (_swig_ret Log_event_footer) {
 	var swig_r Log_event_footer
-	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Unknown_event_footer__SWIG_1_mysql_061405b0074197b1(C.uintptr_t(_swig_base))))
+	swig_r = (Log_event_footer)(SwigcptrLog_event_footer(C._wrap_Unknown_event_footer__SWIG_1_mysql_events_06df29421e916f40(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
