@@ -100,3 +100,5 @@ writing orchestrated by sql lock + generation info, reading can be done uncoordi
 tailer process
 compaction/gc process
 pg_xlog backup watchdog, kill pid and drop slot
+
+schematizer? heartbeat daemon? failover?
