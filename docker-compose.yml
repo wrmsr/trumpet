@@ -1,6 +1,7 @@
 version: '2'
 
 services:
+
   trumpet-test-postgres:
     image: willremind101/trumpet-test-postgres:latest
     container_name: trumpet-test-postgres
