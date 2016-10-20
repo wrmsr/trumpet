@@ -102,3 +102,6 @@ compaction/gc process
 pg_xlog backup watchdog, kill pid and drop slot
 
 schematizer? heartbeat daemon? failover?
+
+
+https://github.com/2ndQuadrant/repmgr
