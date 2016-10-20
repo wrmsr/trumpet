@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Fancy macros in pg_type.h break cgo.
 # Do I care why? No, life is too short to debug C macros.
