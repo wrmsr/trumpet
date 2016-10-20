@@ -82,6 +82,7 @@ segment:
  min_sequence
  max_sequence
 
+json schema
 
 index file contains all information, rewritten in entirety every time
 compaction done as in lucene
