@@ -65,6 +65,7 @@ github.com/Shopify/sarama
 
 https://axialcorps.com/2014/06/24/named-locks-in-mysql-and-postgres/
 
+
 s3/
  my_db/
   index/
@@ -91,7 +92,8 @@ could directly hive interop via create table / partition by segment / add partit
  select row_number() over (partition by id order by segment desc) rn, * from foo where rn = 1
 
 
+writing orchestrated by sql lock + generation info, reading can be done uncoordinated
 
 
-
-
+compaction/gc process
+pg_xlog backup watchdog, kill process and drop slot
