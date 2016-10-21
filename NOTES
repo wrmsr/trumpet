@@ -125,3 +125,5 @@ http://docs.aws.amazon.com/streams/latest/dev/service-sizes-and-limits.html
  Each shard can support up to 1,000 records per second for writes, up to a maximum total data write rate of 1 MB per second (including partition keys).
   .. what a piece of shit.
 https://dzone.com/articles/amazon-kinesis-is-20x-cheaper-when-used-with-the-k
+
+https://github.com/awslabs/amazon-kinesis-producer

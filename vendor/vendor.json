@@ -255,10 +255,6 @@
 			"path": "github.com/rlmcpherson/s3gof3r",
 			"revision": "bc1aca74326ad100d0aa82bfa9ce6e9278620750",
 			"revisionTime": "2016-09-08T23:04:02Z"
-		},
-		{
-			"path": "https://github.com/Shopify/sarama",
-			"revision": ""
 		}
 	],
 	"rootPath": "github.com/wrmsr/trumpet"
